@@ -1,0 +1,23 @@
+{
+    "name": "@sokkuri/common",
+    "description": "Common data for apps that use the Sokkuri API",
+    "version": "1.0.0",
+    "license": "MPL-2.0",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "source": "src/index.ts",
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/sokkuri/common"
+    },
+    "scripts": {
+        "build": "microbundle"
+    },
+    "devDependencies": {
+        "typescript": "^4.0.5",
+        "microbundle": "^0.12.4"
+    }
+}
