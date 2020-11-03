@@ -4,6 +4,7 @@
 
 export { default as Constants } from "./Constants";
 export { default as Anime } from "./models/Anime";
+export { default as BaseEntry } from "./models/BaseEntry";
 export { default as BlogPost } from "./models/BlogPost";
 export { default as Company } from "./models/Company";
 export { default as Content } from "./models/Content";
