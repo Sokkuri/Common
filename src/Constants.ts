@@ -83,6 +83,17 @@ const tvSender = companyTypePrefix + "tvSender";
 
 // #endregion
 
+// #region Seasons
+
+const seasonPrefix = "global.season.";
+
+const winter = seasonPrefix + "winter";
+const spring = seasonPrefix + "spring";
+const summer = seasonPrefix + "summer";
+const fall = seasonPrefix + "fall";
+
+// #endregion
+
 export default {
     Languages: {
         German: german,
@@ -138,5 +149,12 @@ export default {
         Finished: finished,
         Uncompleted: uncompleted,
         States: [ preAiring, airing, finished, uncompleted ]
+    },
+    Seasons: {
+        Winter: winter,
+        Spring: spring,
+        Summer: summer,
+        Fall: fall,
+        Seasons: [ winter, spring, summer, fall ]
     }
 };
