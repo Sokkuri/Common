@@ -141,7 +141,8 @@ export default {
         LightNovel: lightNovel,
         Original: original,
         Game: game,
-        Other: other
+        Other: other,
+        Adaptions: [ anime, manga, visualNovel, lightNovel, original, game, other ]
     },
     States: {
         PreAiring: preAiring,
