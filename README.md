@@ -1,4 +1,7 @@
 # Common
+[![ci](https://gitlab.com/sokkuri/Common/badges/master/pipeline.svg?style=flat)](https://gitlab.com/sokkuri/Common/-/commits/master)
+[![npm](https://img.shields.io/npm/v/@sokkuri/common.svg)](https://www.npmjs.com/package/@sokkuri/common)
+
 Common data to work with the Sokkuri API.
 
 **This package includes:**
