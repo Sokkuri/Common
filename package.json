@@ -11,7 +11,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://gitlab.com/sokkuri/common"
+        "url": "https://github.com/Sokkuri/Common"
     },
     "scripts": {
         "build": "microbundle"
