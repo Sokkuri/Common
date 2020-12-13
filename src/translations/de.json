@@ -23,6 +23,15 @@
                 "ona": "ONA"
             }
         },
+        "company": {
+            "type": {
+                "publisher": "Publisher",
+                "studio": "Studio",
+                "streamingService": "Streamingdienst",
+                "developerStudio": "Entwicklerstudio",
+                "tvSender": "TV-Sender"
+            }
+        },
         "season": {
             "winter": "Winter",
             "spring": "Frühling",
