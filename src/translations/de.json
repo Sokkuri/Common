@@ -23,6 +23,13 @@
                 "ona": "ONA"
             }
         },
+        "content": {
+            "type": {
+                "episode": "Episode",
+                "video": "Video",
+                "streamLinking": "Stream Verlinkung"
+            }
+        },
         "company": {
             "type": {
                 "publisher": "Publisher",
