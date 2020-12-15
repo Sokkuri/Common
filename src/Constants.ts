@@ -124,7 +124,8 @@ export default {
     ContentTypes: {
         Episode: episode,
         Video: video,
-        Streamlinking: streamLinking
+        Streamlinking: streamLinking,
+        ContentTypes: [ episode, video, streamLinking ]
     },
     CompanyTypes: {
         Publisher: publisher,
