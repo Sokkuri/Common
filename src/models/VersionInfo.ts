@@ -5,4 +5,5 @@
 export default class VersionInfo {
     productVersion: string;
     buildDate: Date;
+    commit: string;
 }
