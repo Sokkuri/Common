@@ -94,6 +94,15 @@ const fall = seasonPrefix + "fall";
 
 // #endregion
 
+// #region
+
+const entryTitleTypePrefix = "global.entryTitle.type.";
+
+const title = entryTitleTypePrefix + "title";
+const synonym = entryTitleTypePrefix + "synonym";
+
+// #endregion
+
 export default {
     Languages: {
         German: german,
@@ -158,5 +167,9 @@ export default {
         Summer: summer,
         Fall: fall,
         Seasons: [ winter, spring, summer, fall ]
+    },
+    EntryTitleTypes: {
+        Title: title,
+        Synonym: synonym
     }
 };

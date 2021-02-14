@@ -14,7 +14,6 @@ export { default as Recension } from "./models/Recension";
 export { default as SearchResult } from "./models/SearchResult";
 export { default as SearchSettings } from "./models/SearchSettings";
 export { default as SeasonInfo } from "./models/SeasonInfo";
-export { default as Synonym } from "./models/Synonym";
 export { default as SystemFile } from "./models/SystemFile";
 export { default as Tag } from "./models/Tag";
 export { default as UserInfo } from "./models/UserInfo";
