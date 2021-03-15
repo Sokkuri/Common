@@ -18,4 +18,5 @@ export default class BaseEntry extends BaseModel {
     companies: Company[];
     systemFile: SystemFile;
     overallRating: number;
+    visible: boolean;
 }
