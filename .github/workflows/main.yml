@@ -20,5 +20,5 @@ jobs:
       - uses: actions/setup-node@v2
       - uses: actions/checkout@v2
       - run: |
-          npm install
+          npm ci
           npm run build
