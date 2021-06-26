@@ -26,9 +26,9 @@ const other = adaptionPrefix + "other";
 
 // #endregion
 
-// #region States
+// #region EntryStates
 
-const entryStatePrefix = "global.state.";
+const entryStatePrefix = "global.entry.state.";
 
 const preAiring = entryStatePrefix + "preAiring";
 const airing = entryStatePrefix + "airing";
@@ -39,7 +39,7 @@ const uncompleted = entryStatePrefix + "uncompleted";
 
 // #region WatchingStates
 
-const watchingStatePrefix = "global.userList.entryState.";
+const watchingStatePrefix = "global.userListEntry.state.";
 
 const planned = watchingStatePrefix + "planned";
 const watching = watchingStatePrefix + "watching";
@@ -61,13 +61,12 @@ const ona = animeTypePrefix + "ona";
 
 // #endregion
 
-// #region ContentTypes
+// #region ExternalLinkTypes
 
-const contentTypePrefix = "global.content.type.";
+const externalLinkTypePrefix = "global.externalLink.type.";
 
-const episode = contentTypePrefix + "episode";
-const video = contentTypePrefix + "video";
-const streamLinking = contentTypePrefix + "streamLinking";
+const video = externalLinkTypePrefix + "video";
+const stream = externalLinkTypePrefix + "stream";
 
 // #endregion
 
@@ -130,11 +129,10 @@ export default {
         ONA: ona,
         AnimeTypes: [ series, movie, special, ova, ona ]
     },
-    ContentTypes: {
-        Episode: episode,
+    ExternalLinkTypes: {
         Video: video,
-        Streamlinking: streamLinking,
-        ContentTypes: [ episode, video, streamLinking ]
+        Stream: stream,
+        ExternalLinkTypes: [ video, stream ]
     },
     CompanyTypes: {
         Publisher: publisher,
@@ -154,7 +152,7 @@ export default {
         Other: other,
         Adaptions: [ anime, manga, visualNovel, lightNovel, original, game, other ]
     },
-    States: {
+    EntryStates: {
         PreAiring: preAiring,
         Airing: airing,
         Finished: finished,
