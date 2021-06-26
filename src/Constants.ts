@@ -22,7 +22,7 @@ const visualNovel = adaptionPrefix + "visualNovel";
 const lightNovel = adaptionPrefix + "lightNovel";
 const original = adaptionPrefix + "original";
 const game = adaptionPrefix + "game";
-const other = adaptionPrefix + "other"; const TEST = 'TEST'
+const other = adaptionPrefix + "other";
 
 // #endregion
 
