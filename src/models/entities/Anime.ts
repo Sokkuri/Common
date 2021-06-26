@@ -2,6 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 
+import ExternalLink from "../entities/children/ExternalLink";
 import BaseEntry from "./BaseEntry";
 
 export default class Anime extends BaseEntry {
@@ -11,4 +12,5 @@ export default class Anime extends BaseEntry {
     airedYear: string;
     endingSeason: string;
     endingYear: string;
+    externalLinks: ExternalLink[];
 }

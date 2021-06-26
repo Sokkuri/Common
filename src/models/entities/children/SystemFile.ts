@@ -2,10 +2,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import BaseModel from "./BaseModel";
-
-export default class Company extends BaseModel {
+export default class SystemFile {
     name: string;
-    type: string;
-    active: boolean;
 }

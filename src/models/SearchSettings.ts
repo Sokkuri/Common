@@ -6,7 +6,7 @@ export default class SearchSettings {
     page: number;
     types: string[];
     states: string[];
-    includedTagIds?: number[];
-    excludedTagIds?: number[];
-    includedContentCompanyIds?: number[];
+    includedTags?: string[];
+    excludedTags?: string[];
+    includedStreamingServiceIds?: string[];
 }

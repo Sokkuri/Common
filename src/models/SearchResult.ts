@@ -5,5 +5,5 @@
 export default class SearchResult {
     label: string;
     dataType: string;
-    dataId: number;
+    dataId: string;
 }
