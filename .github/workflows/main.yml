@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
       - uses: actions/checkout@v2
-      - uses: sokkuri/code-reviewer@test
+      - uses: sokkuri/code-reviewer@master
 
   build:
     runs-on: ubuntu-latest
