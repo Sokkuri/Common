@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: sokkuri/code-reviewer@v2
+      - uses: Sokkuri/Code-Reviewer@v2
 
   build:
     runs-on: ubuntu-latest
