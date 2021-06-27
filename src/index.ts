@@ -15,6 +15,7 @@ export { default as Review } from "./models/entities/children/Review";
 export { default as SystemFile } from "./models/entities/children/SystemFile";
 export { default as Company } from "./models/entities/Company";
 export { default as UserListEntry } from "./models/entities/UserListEntry";
+export { default as EntryReview } from "./models/EntryReview";
 export { default as SearchResult } from "./models/SearchResult";
 export { default as SearchSettings } from "./models/SearchSettings";
 export { default as SeasonInfo } from "./models/SeasonInfo";
