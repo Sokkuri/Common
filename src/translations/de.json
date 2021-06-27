@@ -5,8 +5,8 @@
             "english": "Englisch",
             "japanese": "Romaji"
         },
-        "userList": {
-            "entryState": {
+        "userListEntry": {
+            "state": {
                 "planned": "Geplant",
                 "watching": "Am Schauen",
                 "completed": "Abgeschlossen",
@@ -14,20 +14,10 @@
                 "canceled": "Abgebrochen"
             }
         },
-        "anime": {
+        "externalLink": {
             "type": {
-                "series": "Serie",
-                "movie": "Film",
-                "special": "Spezial",
-                "ova": "OVA",
-                "ona": "ONA"
-            }
-        },
-        "content": {
-            "type": {
-                "episode": "Episode",
                 "video": "Video",
-                "streamLinking": "Stream Verlinkung"
+                "stream": "Stream"
             }
         },
         "company": {
@@ -39,26 +29,37 @@
                 "tvSender": "TV-Sender"
             }
         },
+        "entry": {
+            "adaption": {
+                "anime": "Anime",
+                "manga": "Manga",
+                "visualNovel": "Visual Novel",
+                "lightNovel": "Light Novel",
+                "original": "Original",
+                "game": "Spiel",
+                "other": "Sonstige"
+            },
+            "state": {
+                "preAiring": "Pre-Airing",
+                "airing": "Airing",
+                "finished": "Abgeschlossen",
+                "uncompleted": "Abgebrochen"
+            }
+        },
+        "anime": {
+            "type": {
+                "series": "Serie",
+                "movie": "Film",
+                "special": "Spezial",
+                "ova": "OVA",
+                "ona": "ONA"
+            }
+        },
         "season": {
             "winter": "Winter",
             "spring": "Frühling",
             "summer": "Sommer",
             "fall": "Herbst"
-        },
-        "adaption": {
-            "anime": "Anime",
-            "manga": "Manga",
-            "visualNovel": "Visual Novel",
-            "lightNovel": "Light Novel",
-            "original": "Original",
-            "game": "Spiel",
-            "other": "Sonstige"
-        },
-        "state": {
-            "preAiring": "Pre-Airing",
-            "airing": "Airing",
-            "finished": "Abgeschlossen",
-            "uncompleted": "Abgebrochen"
         },
         "tag": {
             "action": "Action",
