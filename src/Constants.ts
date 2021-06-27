@@ -14,7 +14,7 @@ const japanese = applicationLanguagePrefix + "japanese";
 
 // #region Adaptions
 
-const adaptionPrefix = "global.adaption.";
+const adaptionPrefix = "global.entry.adaption.";
 
 const anime = adaptionPrefix + "anime";
 const manga = adaptionPrefix + "manga";
