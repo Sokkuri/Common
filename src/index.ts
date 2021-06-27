@@ -18,5 +18,7 @@ export { default as UserListEntry } from "./models/entities/UserListEntry";
 export { default as SearchResult } from "./models/SearchResult";
 export { default as SearchSettings } from "./models/SearchSettings";
 export { default as SeasonInfo } from "./models/SeasonInfo";
+export { default as UserListStats } from "./models/UserListStats";
 export { default as VersionInfo } from "./models/VersionInfo";
 export { default as Translations } from "./translations/Translations";
+
