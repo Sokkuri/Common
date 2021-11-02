@@ -17,7 +17,7 @@
         "build": "microbundle"
     },
     "devDependencies": {
-        "@sokkuri/eslint-config": "^2.1.2",
+        "@sokkuri/eslint-config": "^3.0.0",
         "typescript": "^4.0.5",
         "microbundle": "^0.14.1",
         "eslint": "^7.15.0"
