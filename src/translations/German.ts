@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
+
 import Constants from "../Constants";
 
 export default {
@@ -92,7 +96,7 @@ export default {
 
     // UserListEntry -> State
     [Constants.UserListEntry.State.Planned]: "Geplant",
-    [Constants.UserListEntry.State.InProgress]: "Gerade dabei",
+    [Constants.UserListEntry.State.InProgress]: "Aktuell",
     [Constants.UserListEntry.State.Completed]: "Abgeschlossen",
     [Constants.UserListEntry.State.Paused]: "Pausiert",
     [Constants.UserListEntry.State.Canceled]: "Abgebrochen"
